@@ -1,0 +1,20 @@
+<xml version ="1.0" encoding="UTF-8"?>
+<accounts>
+    <account>
+        <id>1</id>
+        <username>johndoe</username>
+        <email>email@mail.com
+</email>
+        <password>hashed_password_123</password>
+    </account>
+    <db>
+        <sql>
+            CREATE TABLE accounts (
+                id INT PRIMARY KEY,
+                username VARCHAR(50) NOT NULL,
+                email VARCHAR(100) NOT NULL,
+                password VARCHAR(255) NOT NULL
+            );
+        </sql>
+    </db>
+</accounts>
