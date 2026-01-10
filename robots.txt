@@ -1,2 +1,3 @@
-Disallow: db/
+Disallow: /db/
 Disallow: /software.html
+Disallow: /errors/
